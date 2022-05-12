@@ -1,0 +1,54 @@
+
+.mainContainer {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.mainContainer > h1 {
+    font-size: 1.5rem;
+    color: #404040;
+
+
+}
+.mainContainer > ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.mainContainer > ul > li {
+    width: 100%;
+    border-bottom: 1px solid #F1F1F1;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.mainContainer > ul > li:hover {
+    background-color: #F1F1F1;
+}
+
+.inliContainer div >  h {
+    letter-spacing: 0.5px;
+}
+
+.inliContainer div >  p {
+    margin: 5px 0px;
+    color: #404040;
+    letter-spacing: 0.4px;    
+}
+
+
+@media screen and (max-width: 750px) {
+    .inliContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+}
