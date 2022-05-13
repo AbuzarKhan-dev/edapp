@@ -33,8 +33,11 @@
     background-color: #F1F1F1;
 }
 
-.inliContainer div >  h {
+.inliContainer div >  h4 {
     letter-spacing: 0.5px;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .inliContainer div >  p {
