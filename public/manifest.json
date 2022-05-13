@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#2C0010",
   "themeColor": "#2C0010",
-  "msTileColor": "#2C0010",
+  "msTileColor": "red",
   "backgroundColor": "#2C0010",
   "theme_color": "#2C0010",
   "orientation": "portrait-primary",
