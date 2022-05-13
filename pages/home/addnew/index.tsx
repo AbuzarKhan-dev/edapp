@@ -23,7 +23,7 @@ const AddnewRecord = ({ display }: PropType) => {
 					backgroundColor: 'green',
 					width: '100%',
 					height: '100vh',
-					opacity: '0.2'
+					opacity: '0.15'
 				}}
 			></div>
 			<div className={styles.insidemainContainer}>
