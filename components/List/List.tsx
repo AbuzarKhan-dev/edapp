@@ -21,10 +21,6 @@ const List = () => {
 
 	return (
 		<div
-			style={{
-				justifyContent: data?.length === 0 ? 'center' : '',
-				alignItems: data?.length === 0 ? 'center' : ''
-			}}
 			className={styles.mainContainer}
 		>
 			<ul>

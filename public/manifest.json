@@ -1,7 +1,7 @@
 {
   "name": "Darzi Record",
   "short_name": "Darzi Record",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FFE9D2",
   "theme_color" : "#FFFFFF",
