@@ -3,8 +3,8 @@
   "short_name": "Darzi Record",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#FFE9D2",
-  "theme_color" : "#FFFFFF",
+  "background_color": "#2F2325",
+  "theme_color" : "#2F2325",
   "orientation": "portrait-primary",
   "icons": [
       {
