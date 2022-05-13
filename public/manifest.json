@@ -3,11 +3,11 @@
   "short_name": "Darzi Record",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#000000",
-  "themeColor": "#000000",
-  "msTileColor": "#000000",
-  "backgroundColor": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#2C0010",
+  "themeColor": "#2C0010",
+  "msTileColor": "#2C0010",
+  "backgroundColor": "#2C0010",
+  "theme_color": "#2C0010",
   "orientation": "portrait-primary",
   "icons": [
       {
