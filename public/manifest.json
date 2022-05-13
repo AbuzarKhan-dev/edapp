@@ -4,10 +4,10 @@
   "start_url": "./",
   "display": "standalone",
   "background_color": "#2C0010",
-  "themeColor": "#2C0010",
+  "themeColor": "red",
   "msTileColor": "red",
-  "backgroundColor": "#2C0010",
-  "theme_color": "#2C0010",
+  "backgroundColor": "red",
+  "theme_color": "red",
   "orientation": "portrait-primary",
   "icons": [
       {
