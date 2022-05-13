@@ -38,7 +38,7 @@ const Nav = ({
 			<div
 				style={{
 					borderBottom:
-						activeRecords === true ? '4px solid white' : 'none'
+						activeRecords === true ? '3px solid white' : 'none'
 				}}
 				className={styles.headingContainer}
 				onClick={() => activateRecords()}
@@ -60,7 +60,7 @@ const Nav = ({
 			<div
 				style={{
 					borderBottom:
-						activeNewRecords === true ? '4px solid white' : 'none'
+						activeNewRecords === true ? '3px solid white' : 'none',
 				}}
 				className={styles.headingContainer}
 				onClick={() => activateNewRecord()}
@@ -70,8 +70,8 @@ const Nav = ({
 						<span>
 							<Image
 								src="/icons/plus.svg"
-								width={19}
-								height={19}
+								width={20}
+								height={20}
 								alt="plusIcon"
 							/>
 						</span>
