@@ -44,14 +44,16 @@ const Nav = ({
 				onClick={() => activateRecords()}
 			>
 				<Link href="/home">
-					<a className={styles.link}>
-						<span>
-							<Image
-								src="/icons/contacts.svg"
-								width={20}
-								height={20}
-								alt="contactIcon"
-							/>
+					<a className={styles.link} style={{color:activeRecords === true ? "#fff9f9" : "#906f89"}}>
+						<span className={styles.span}>
+						<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
+                        <path fill={activeRecords === true ? "#f1f1f1" : "#806279"} d="M38,44H12V4h26c2.2,0,4,1.8,4,4v32C42,42.2,40.2,44,38,44z"/>
+                        <path fill={activeRecords === true ? "#ffffff" :"#906f89"} d="M10,4h2v40h-2c-2.2,0-4-1.8-4-4V8C6,5.8,7.8,4,10,4z"/>
+                        <g fill={activeRecords === true ? "#ffffff" :"#906f89"}>
+                        <circle cx="26" cy="20" r="4"/>
+                        <path d="M33,30c0,0-1.9-4-7-4c-5.1,0-7,4-7,4v2h14V30z"/>
+                        </g>
+                        </svg>
 						</span>
 						RECORDS
 					</a>
@@ -66,14 +68,9 @@ const Nav = ({
 				onClick={() => activateNewRecord()}
 			>
 				<Link href="/home">
-					<a className={styles.link}>
-						<span>
-							<Image
-								src="/icons/plus.svg"
-								width={20}
-								height={20}
-								alt="plusIcon"
-							/>
+					<a className={styles.link} style={{color:activeNewRecords === true ? "#fff9f9" : "#906f89"}}>
+						<span className={styles.span}>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill={activeNewRecords === true ? "#fff9f9": "#906f89"} d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"/></svg>
 						</span>
 						ADD-RECORD
 					</a>
