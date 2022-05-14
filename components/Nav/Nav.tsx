@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../../styles/Nav.module.css';
 import Link from 'next/dist/client/link';
-import Image from 'next/dist/client/image';
 
 interface PropsInterface {
 	setavticatedRecords?: any;
