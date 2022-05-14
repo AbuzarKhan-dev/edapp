@@ -11,9 +11,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
 }
 
 .logobtnContainer {
@@ -99,15 +96,12 @@
     background-color: black;
     opacity: 0.6;
     width: 100%;
-    height: 100%;
-    border-bottom-left-radius: 25px; 
-    border-bottom-right-radius: 25px;  
-
+    height: 100%; 
 }
 
 .inputdiv {
     width: 90%;
-    border-radius: 50px;
+    border-radius: 4px;
 }
 
 .input {
@@ -115,7 +109,6 @@
     border: none;
     padding: 10px 10px;
     outline: none;
-    border-radius: 20px;
 }
 
 .input::placeholder {
