@@ -19,7 +19,7 @@
     max-height: 100vh;
     padding: 0;
     padding-top: 100px;
-    background-color: #fbf7f7;
+    background-color: #ffffff;
 }
 
 .mainContainer > ul > li {
@@ -32,7 +32,7 @@
     /* -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.52);
     -moz-box-shadow: 0 0 12px rgba(0,0,0,0.52);
     box-shadow: 0 0 12px rgba(0,0,0,0.52); */
-    background-color: rgb(245, 245, 250);
+    background-color: rgb(255, 255, 255);
 }
 
 .mainContainer > ul > li:hover {

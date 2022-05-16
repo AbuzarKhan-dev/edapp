@@ -22,7 +22,7 @@ const Layout = ({
 			<div>
 				<div className={styles.childrenContainer}>{children}</div>
 			</div>
-			<footer>
+			{/* <footer>
 				<div className={styles.footerContainer}>
 					<div className={styles.footerContainerWrapper}>
 						<div className={styles.footerIconContainer}>
@@ -39,7 +39,7 @@ const Layout = ({
 						</div>
 					</div>
 				</div>
-			</footer>
+			</footer> */}
 		</div>
 	);
 };
