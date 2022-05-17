@@ -1,7 +1,7 @@
 .header {
     width: 100%;
-    height: 110px;
-    background-color: rgb(67, 29, 119);
+    height: 130px;
+    background-color: black;
     /* background-image: linear-gradient(#000000,#434343); */
     -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.52);
     -moz-box-shadow: 0 0 12px rgba(0,0,0,0.52);
@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .logobtnContainer {
@@ -95,7 +95,7 @@
 }
 
 .bgContainer {
-    background-color: black;
+    background-color: #fce4b4;
     opacity: 0.6;
     width: 100%;
     height: 100%; 

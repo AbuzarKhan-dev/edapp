@@ -1,5 +1,8 @@
  .container {
-  background-image: linear-gradient(#2F2325,#540042);
+  /* background-image: linear-gradient(#2F2325,#540042);
+  */
+  background-image: url("/images/seamless-pattern-with-sewing-and-tailoring-stuff-sewing-machine-scissors-sewing-and-other-handicrafts-items-free-vector55-6.jpg");
+    background-size: 180px;
   width: 100%;
   height: 100vh;
 }
@@ -122,6 +125,6 @@
   width: 100%;
   min-height: 100vh;
   height: 100%;
-  background-color: green;
+  /* background-color: green; */
   z-index: 3;
 }

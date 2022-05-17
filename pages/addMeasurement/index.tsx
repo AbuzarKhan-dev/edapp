@@ -25,10 +25,7 @@ const AddMeasurement = () => {
 				<div
 					className={styles.bgContainer}
 					style={{
-						backgroundColor: 'green',
-						width: '100%',
-						height: '100vh',
-						opacity: '0.2'
+						
 					}}
 				></div>
 				<div className={styles.insidemainContainer}>

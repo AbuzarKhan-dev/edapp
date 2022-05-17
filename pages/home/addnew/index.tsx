@@ -19,12 +19,6 @@ const AddnewRecord = ({ display }: PropType) => {
 		<div style={{ display: display }} className={styles.mainContainer}>
 			<div
 				className={styles.bgContainer}
-				style={{
-					backgroundColor: 'green',
-					width: '100%',
-					height: '100vh',
-					opacity: '0.15'
-				}}
 			></div>
 			<div className={styles.insidemainContainer}>
 				<h1 className={styles.mainHeading}>
