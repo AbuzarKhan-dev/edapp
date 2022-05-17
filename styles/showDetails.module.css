@@ -42,7 +42,7 @@
 .insideContainer {
     height: 100%;
     /* border: 1px solid #bbb9b9; */
-    background-color: #fce4b4;
+    /* background-color: #fce4b4; */
     border-radius: 3px;
     padding: 10px 0px;
     -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.32);
@@ -54,6 +54,7 @@
     cursor: pointer;
     overflow-x: hidden;
     transition: 0.2s linear;
+    border: 2px solid #f9cf7a;
 }
 
 .insideContainer:hover {

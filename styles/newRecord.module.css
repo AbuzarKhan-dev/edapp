@@ -54,11 +54,13 @@
     background: transparent;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #FFFFFF;
 }
 
 .input::placeholder {
     letter-spacing: 0.6px;
 }
+
 
 .submit {
     border-radius: 3px;
