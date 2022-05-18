@@ -46,7 +46,7 @@ const AddMeasurement = () => {
 										{' '}
 										<button
 											style={{
-												backgroundColor: '#66BDAB',
+												backgroundColor: '#FFCC66',
 												borderBottom: '1px solid white',
 												borderTopRightRadius: '3px',
 												fontSize: '18px'
@@ -57,7 +57,7 @@ const AddMeasurement = () => {
 										</button>
 										<button
 											style={{
-												backgroundColor: '#DD3B49',
+												backgroundColor: '#FFCC66',
 												borderBottomRightRadius: '3px',
 												fontSize: '18px'
 											}}
@@ -80,7 +80,7 @@ const AddMeasurement = () => {
 										{' '}
 										<button
 											style={{
-												backgroundColor: '#66BDAB',
+												backgroundColor: '#FFCC66',
 												borderBottom: '1px solid white',
 												borderTopRightRadius: '3px',
 												fontSize: '18px'
@@ -91,7 +91,7 @@ const AddMeasurement = () => {
 										</button>
 										<button
 											style={{
-												backgroundColor: '#DD3B49',
+												backgroundColor: '#FFCC66',
 												borderBottomRightRadius: '3px',
 												fontSize: '18px'
 											}}
@@ -114,7 +114,7 @@ const AddMeasurement = () => {
 										{' '}
 										<button
 											style={{
-												backgroundColor: '#66BDAB',
+												backgroundColor: '#FFCC66',
 												borderBottom: '1px solid white',
 												borderTopRightRadius: '3px',
 												fontSize: '18px'
@@ -125,7 +125,7 @@ const AddMeasurement = () => {
 										</button>
 										<button
 											style={{
-												backgroundColor: '#DD3B49',
+												backgroundColor: '#FFCC66',
 												borderBottomRightRadius: '3px',
 												fontSize: '18px'
 											}}
