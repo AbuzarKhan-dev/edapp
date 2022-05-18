@@ -22,7 +22,8 @@
     text-align: center;
     color: #404040;
     margin-top: 30px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
+
 }
 
 .fromContainer {
@@ -34,7 +35,7 @@
     width: 80%;
     max-width: 320px;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 12px 0px;
 }
 
 .label {
@@ -66,7 +67,7 @@
     border-radius: 3px;
     padding: 14px 5px;
     border: none;
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #FFCC66;
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -74,6 +75,9 @@
     cursor: pointer;
     transition: 0.2s ease-in-out;
     letter-spacing: 1px;
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    box-shadow: 0 0 12px rgba(0,0,0,0.14);
 }
 
 .submit:hover {

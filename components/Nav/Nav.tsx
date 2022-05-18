@@ -37,7 +37,7 @@ const Nav = ({
 			<div
 				style={{
 					borderBottom:
-						activeRecords === true ? '3px solid white' : 'none'
+						activeRecords === true ? '3px solid #FFCC66' : 'none'
 				}}
 				className={styles.headingContainer}
 				onClick={() => activateRecords()}
@@ -47,7 +47,7 @@ const Nav = ({
 						className={styles.link}
 						style={{
 							color:
-								activeRecords === true ? '#fff9f9' : '#fce4b4'
+								activeRecords === true ? '#FFCC66' : '#404040'
 						}}
 					>
 						<span className={styles.span}>
@@ -60,16 +60,16 @@ const Nav = ({
 								<path
 									fill={
 										activeRecords === true
-											? '#f1f1f1'
-											: '#fce4b4'
+											? '#FFCC66'
+											: '#383439'
 									}
 									d="M38,44H12V4h26c2.2,0,4,1.8,4,4v32C42,42.2,40.2,44,38,44z"
 								/>
 								<path
 									fill={
 										activeRecords === true
-											? '#ffffff'
-											: '#f1f1f1'
+											? '#fce4b4'
+											: '#383439'
 									}
 									d="M10,4h2v40h-2c-2.2,0-4-1.8-4-4V8C6,5.8,7.8,4,10,4z"
 								/>
@@ -77,7 +77,7 @@ const Nav = ({
 									fill={
 										activeRecords === true
 											? '#fce4b4'
-											: '#f1f1f1'
+											: '#383439'
 									}
 								>
 									<circle cx="26" cy="20" r="4" />
@@ -92,7 +92,7 @@ const Nav = ({
 			<div
 				style={{
 					borderBottom:
-						activeNewRecords === true ? '3px solid white' : 'none'
+						activeNewRecords === true ? '3px solid #FFCC66' : 'none'
 				}}
 				className={styles.headingContainer}
 				onClick={() => activateNewRecord()}
@@ -103,8 +103,8 @@ const Nav = ({
 						style={{
 							color:
 								activeNewRecords === true
-									? '#fff9f9'
-									: '#fce4b4'
+									? '#FFCC66'
+									: '#383439'
 						}}
 					>
 						<span className={styles.span}>
@@ -117,8 +117,8 @@ const Nav = ({
 								<path
 									fill={
 										activeNewRecords === true
-											? '#fff9f9'
-											: '#fce4b4'
+											? '#FFCC66'
+											: '#383439'
 									}
 									d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 13h-5v5h-2v-5h-5v-2h5v-5h2v5h5v2z"
 								/>

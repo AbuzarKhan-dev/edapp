@@ -152,7 +152,7 @@ const AddMeasurement = () => {
 									type="submit"
 									value="SUBMIT"
 								/>
-								<Link href="/selectClType">{'<'}</Link>
+								<Link href="/selectClType"><h3 style={{color:"#f1f1f1"}}>{'<'}</h3></Link>
 							</form>
 						</div>
 					</div>

@@ -31,7 +31,7 @@ const SelectClType: NextPage = () => {
 				></div>
 				<div className={styles.insidemainContainer}>
 					<div className={styles.btnContainer}>
-						<Link href="/showDetails">{'>'}</Link>
+						<Link href="/showDetails"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
 						<button className={styles.btn}>KAMEEZ DETAILS</button>
 						<button className={styles.btn}>SALWAR DETAILS</button>
 						<button className={styles.btn}>KURTA DETAILS</button>
@@ -82,7 +82,7 @@ const SelectClType: NextPage = () => {
 							margin: '0 auto'
 						}}
 					>
-						<Link href="/addMeasurement">{'>'}</Link>
+						<Link href="/addMeasurement"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
 					</div>
 				</div>
 			</section>

@@ -56,9 +56,9 @@
     border-radius: 3px;
     cursor: pointer;
     letter-spacing: 1px;
-    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.10);
-    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.10);
-    box-shadow: 0 0 12px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    box-shadow: 0 0 12px rgba(0,0,0,0.14);
 }
 
 .dropdownContainer {
@@ -84,9 +84,9 @@
     color: #404040;
     font-weight: 500;
     padding: 10px 5px;
-    background-color: #404040;
-    color: #FFFFFF;
-    letter-spacing: 0.6px;
+    background-color: #f8e7c4;
+    color: #000000;
+    letter-spacing: 1px;
 
 
 }

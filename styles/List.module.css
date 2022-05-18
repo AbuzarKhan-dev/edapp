@@ -17,6 +17,7 @@
     width: 100%;
     padding: 0;
     padding-top: 130px;
+    background-color: #ffffff;
 }
 
 .mainContainer > ul > li {
@@ -26,19 +27,20 @@
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.04);
-    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.04);
-    box-shadow: 0 0 12px rgba(0,0,0,0.04);
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    box-shadow: 0 0 12px rgba(0,0,0,0.14);
     width: 94%;
     margin: 0 auto;
     margin-bottom: 10px;
     margin-top: 5px;
     border-radius: 5px;
+    
 
 }
 
 .mainContainer > ul > li:hover {
-    background-color: #F1F1F1;
+    background-color: #f8e3b9;
 }
 
 .inliContainer div >  h4 {

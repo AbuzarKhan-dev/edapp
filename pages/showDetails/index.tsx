@@ -48,7 +48,7 @@ const ShowDetails: NextPage = () => {
 						/>
 					</div>
 					<div style={{ width: 'fit-content', float: 'right' }}>
-						<Link href="/edit">{'>'}</Link>
+						<Link href="/edit"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
 					</div>
 				</div>
 				<div className={styles.sectionMainContainer}>
@@ -76,7 +76,7 @@ const ShowDetails: NextPage = () => {
 						/>
 					</div>
 					<div style={{ width: 'fit-content', float: 'right' }}>
-						<Link href="/edit">{'>'}</Link>
+						<Link href="/edit"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
 					</div>
 				</div>
 			</section>
