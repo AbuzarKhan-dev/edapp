@@ -29,13 +29,38 @@ const SelectClType: NextPage = () => {
 					   backgroundColor:"#FCFCFC"
 					}}
 				></div>
+				<Link href="/showDetails"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
 				<div className={styles.insidemainContainer}>
 					<div className={styles.btnContainer}>
-						<Link href="/showDetails"><h3 style={{color:"#f1f1f1"}}>{'>'}</h3></Link>
-						<button className={styles.btn}>KAMEEZ DETAILS</button>
-						<button className={styles.btn}>SALWAR DETAILS</button>
-						<button className={styles.btn}>KURTA DETAILS</button>
-						<button className={styles.btn}>PAJAMA DETAILS</button>
+						<button className={styles.btn}><Image
+							src="/icons/tape 1.svg"
+							width={24}
+							height={24}
+							style={{ cursor: 'pointer' }}
+							alt="arrowIcon"
+							className={styles.Image}
+						/><h3>KAMEEZ DETAILS</h3></button>
+						<button className={styles.btn}><Image
+							src="/icons/tape 1.svg"
+							width={24}
+							height={24}
+							style={{ cursor: 'pointer' }}
+							alt="arrowIcon"
+						/><h3>SALWAR DETAILS</h3></button>
+						<button className={styles.btn}><Image
+							src="/icons/tape 1.svg"
+							width={24}
+							height={24}
+							style={{ cursor: 'pointer' }}
+							alt="arrowIcon"
+						/><h3>KURTA DETAILS</h3></button>
+						<button className={styles.btn}><Image
+							src="/icons/tape 1.svg"
+							width={24}
+							height={24}
+							style={{ cursor: 'pointer' }}
+							alt="arrowIcon"
+						/><h3>PAJAMA DETAILS</h3></button>
 					</div>
 					<div className={styles.dropdownContainer}>
 						<select

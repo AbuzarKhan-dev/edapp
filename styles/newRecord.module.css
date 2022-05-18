@@ -56,6 +56,9 @@
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: #FFFFFF;
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0 0 12px rgba(0,0,0,0.04);
+    box-shadow: 0 0 12px rgba(0,0,0,0.04);
 }
 
 .input::placeholder {

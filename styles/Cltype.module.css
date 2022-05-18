@@ -14,9 +14,10 @@
     align-items: center;
 }
 
-/* 
-.section {
+
+/* .section {
 } */
+
 
 .backbtnContainer {
     width: fit-content;
@@ -39,26 +40,45 @@
 .btnContainer{
     height: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    padding: 14px 0px;
+    padding: 30px 0px;
+    /* background-color: red; */
 }
 
 .btn {
-    width: 50%;
+    width: 45%;
     margin-bottom: 10px;
     padding: 12px 0px;
-    background-color: #FFCC66;
-    color: #FFFFFF;
     border: none;
+    /* border:2px solid #FFCC66; */
+    color: #000000;
     border-radius: 3px;
     cursor: pointer;
     letter-spacing: 1px;
     -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.14);
     -moz-box-shadow: 0 0 12px rgba(0,0,0,0.14);
     box-shadow: 0 0 12px rgba(0,0,0,0.14);
+    height: 100px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn > h3 {
+    font-size: 14px;
+    font-weight: 500;
+    
 }
 
 .dropdownContainer {
@@ -99,8 +119,12 @@
 
 .insidemainContainer {
     position: absolute;
-    top: 40px;
+    top: 60px;
     width: 100%;
+}
+
+.Image {
+    margin-bottom: 20px;
 }
 
 .bgContainer {

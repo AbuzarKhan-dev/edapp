@@ -17,12 +17,12 @@
     width: 100%;
     padding: 0;
     padding-top: 130px;
-    background-color: #ffffff;
 }
 
 .mainContainer > ul > li {
     width: 100%;
-    border: 1px solid #f9cf7a;
+    /* border: 1px solid #000000; */
+    border: none;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -48,11 +48,12 @@
     font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #000000;
 }
 
 .inliContainer div >  p {
     margin: 5px 0px;
-    color: #404040;
+    color: #000000;
     letter-spacing: 0.4px;    
 }
 
